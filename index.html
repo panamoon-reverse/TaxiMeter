@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Meter</title>
+</head>
+<body>
+    <div>
+        <h1>Taxi Meter</h1>
+        <h2>โปรแกรมคำนวณค่าโดยสาร</h2>
+        <label> ระยะทาง (กิโลเมตร) </label>
+        <input id = "distance" type = "number"> <br><br>
+
+        <label> เวลารถติด (นาที) </label>
+        <input id = "time" type = "number"> <br><br>
+
+        <button id = "calculateBtn" onclick = "calculateResult()"> คำนวณ </button>
+
+        <h2> ค่าโดยสาร : </h2>
+        <p id = "result"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
